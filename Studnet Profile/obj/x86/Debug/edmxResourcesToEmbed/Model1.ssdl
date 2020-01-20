@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DataModelStoreContainer">
+    <EntitySet Name="REGISTRATION_TABLE1" EntityType="DataModel.Store.REGISTRATION_TABLE1" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="REGISTRATION_TABLE1">
+    <Key>
+      <PropertyRef Name="ENROLLMENT_NO" />
+    </Key>
+    <Property Name="REGISTER_ID" Type="int" />
+    <Property Name="ENROLLMENT_NO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PASSWORD" Type="varchar" MaxLength="50" />
+    <Property Name="CONFIRM_PASSWORD" Type="varchar" MaxLength="50" />
+    <Property Name="DEPARTMENT" Type="varchar" MaxLength="50" />
+    <Property Name="CLASS" Type="varchar" MaxLength="50" />
+    <Property Name="ACADEMIC_YEAR" Type="varchar" MaxLength="50" />
+    <Property Name="ROLL_NO" Type="int" />
+    <Property Name="NAME" Type="varchar" MaxLength="50" />
+    <Property Name="RELIGION" Type="varchar" MaxLength="50" />
+    <Property Name="BOD" Type="date" />
+    <Property Name="CATEGORY" Type="varchar" MaxLength="50" />
+    <Property Name="CAST" Type="varchar" MaxLength="50" />
+    <Property Name="BLOOD_GROUP" Type="varchar" MaxLength="50" />
+    <Property Name="ADDRESS" Type="varchar" MaxLength="50" />
+    <Property Name="PHONE_NO1" Type="varchar" MaxLength="10" />
+    <Property Name="EMAIL_ID" Type="varchar" MaxLength="50" />
+    <Property Name="AADHAR_NO" Type="varchar" MaxLength="50" />
+    <Property Name="GENDER" Type="varchar" MaxLength="50" />
+    <Property Name="FATHER_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="MOTHER_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PHONE_NO2" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="OCCUPATION" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="OFFICE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PERMANENT_ADDRESS" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IMAGE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND1_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND1_CLASS" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND1_COURSE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND1_ROLL_NO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND1_PHONE_NO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FRIEND2_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND2_CLASS" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND2_COURSE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND2_ROLL_NO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FRIEND2_PHONE_NO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PICIMAGE" Type="image" Nullable="false" />
+  </EntityType>
+</Schema>

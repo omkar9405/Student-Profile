@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="DataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="REGISTRATION_TABLE1" EntityType="DataModel.REGISTRATION_TABLE1" />
+  </EntityContainer>
+  <EntityType Name="REGISTRATION_TABLE1">
+    <Key>
+      <PropertyRef Name="ENROLLMENT_NO" />
+    </Key>
+    <Property Name="REGISTER_ID" Type="Int32" />
+    <Property Name="ENROLLMENT_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CONFIRM_PASSWORD" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DEPARTMENT" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CLASS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ACADEMIC_YEAR" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ROLL_NO" Type="Int32" />
+    <Property Name="NAME" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="RELIGION" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BOD" Type="DateTime" />
+    <Property Name="CATEGORY" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CAST" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BLOOD_GROUP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ADDRESS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PHONE_NO1" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="EMAIL_ID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="AADHAR_NO" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="GENDER" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FATHER_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MOTHER_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PHONE_NO2" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="OCCUPATION" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OFFICE" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="PERMANENT_ADDRESS" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IMAGE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND1_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND1_CLASS" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND1_COURSE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND1_ROLL_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND1_PHONE_NO" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND2_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND2_CLASS" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND2_COURSE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND2_ROLL_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FRIEND2_PHONE_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PICIMAGE" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+</Schema>

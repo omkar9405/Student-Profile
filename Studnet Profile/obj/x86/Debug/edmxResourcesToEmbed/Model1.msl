@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities">
+    <EntitySetMapping Name="REGISTRATION_TABLE1">
+      <EntityTypeMapping TypeName="DataModel.REGISTRATION_TABLE1">
+        <MappingFragment StoreEntitySet="REGISTRATION_TABLE1">
+          <ScalarProperty Name="REGISTER_ID" ColumnName="REGISTER_ID" />
+          <ScalarProperty Name="ENROLLMENT_NO" ColumnName="ENROLLMENT_NO" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="CONFIRM_PASSWORD" ColumnName="CONFIRM_PASSWORD" />
+          <ScalarProperty Name="DEPARTMENT" ColumnName="DEPARTMENT" />
+          <ScalarProperty Name="CLASS" ColumnName="CLASS" />
+          <ScalarProperty Name="ACADEMIC_YEAR" ColumnName="ACADEMIC_YEAR" />
+          <ScalarProperty Name="ROLL_NO" ColumnName="ROLL_NO" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="RELIGION" ColumnName="RELIGION" />
+          <ScalarProperty Name="BOD" ColumnName="BOD" />
+          <ScalarProperty Name="CATEGORY" ColumnName="CATEGORY" />
+          <ScalarProperty Name="CAST" ColumnName="CAST" />
+          <ScalarProperty Name="BLOOD_GROUP" ColumnName="BLOOD_GROUP" />
+          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+          <ScalarProperty Name="PHONE_NO1" ColumnName="PHONE_NO1" />
+          <ScalarProperty Name="EMAIL_ID" ColumnName="EMAIL_ID" />
+          <ScalarProperty Name="AADHAR_NO" ColumnName="AADHAR_NO" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="FATHER_NAME" ColumnName="FATHER_NAME" />
+          <ScalarProperty Name="MOTHER_NAME" ColumnName="MOTHER_NAME" />
+          <ScalarProperty Name="PHONE_NO2" ColumnName="PHONE_NO2" />
+          <ScalarProperty Name="OCCUPATION" ColumnName="OCCUPATION" />
+          <ScalarProperty Name="OFFICE" ColumnName="OFFICE" />
+          <ScalarProperty Name="PERMANENT_ADDRESS" ColumnName="PERMANENT_ADDRESS" />
+          <ScalarProperty Name="IMAGE" ColumnName="IMAGE" />
+          <ScalarProperty Name="FRIEND1_NAME" ColumnName="FRIEND1_NAME" />
+          <ScalarProperty Name="FRIEND1_CLASS" ColumnName="FRIEND1_CLASS" />
+          <ScalarProperty Name="FRIEND1_COURSE" ColumnName="FRIEND1_COURSE" />
+          <ScalarProperty Name="FRIEND1_ROLL_NO" ColumnName="FRIEND1_ROLL_NO" />
+          <ScalarProperty Name="FRIEND1_PHONE_NO" ColumnName="FRIEND1_PHONE_NO" />
+          <ScalarProperty Name="FRIEND2_NAME" ColumnName="FRIEND2_NAME" />
+          <ScalarProperty Name="FRIEND2_CLASS" ColumnName="FRIEND2_CLASS" />
+          <ScalarProperty Name="FRIEND2_COURSE" ColumnName="FRIEND2_COURSE" />
+          <ScalarProperty Name="FRIEND2_ROLL_NO" ColumnName="FRIEND2_ROLL_NO" />
+          <ScalarProperty Name="FRIEND2_PHONE_NO" ColumnName="FRIEND2_PHONE_NO" />
+          <ScalarProperty Name="PICIMAGE" ColumnName="PICIMAGE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
