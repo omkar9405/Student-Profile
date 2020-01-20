@@ -22,3 +22,11 @@ This project is created to keep students data safe. Student Profile System used 
 6. Home Page After Login:
 ![Screenshot 2018-03-18 13 14 20(2)](https://user-images.githubusercontent.com/42617411/72750476-f22e7500-3be2-11ea-951a-c02b9dac5865.png)
 
+7. Database Pages:
+![Screenshot 2018-03-17 13 05 15](https://user-images.githubusercontent.com/42617411/72750564-39b50100-3be3-11ea-9a78-7b4c32e40308.png)
+![Screenshot 2018-03-17 13 05 36](https://user-images.githubusercontent.com/42617411/72750573-3f124b80-3be3-11ea-9f50-d1c504c58928.png)
+![Screenshot 2018-03-17 13 05 57](https://user-images.githubusercontent.com/42617411/72750575-420d3c00-3be3-11ea-94ea-6a5f36248e2a.png)
+![Screenshot 2018-03-18 21 20 23](https://user-images.githubusercontent.com/42617411/72750585-476a8680-3be3-11ea-9144-18ce9fe95191.png)
+![Screenshot 2018-03-18 13 14 20(2)](https://user-images.githubusercontent.com/42617411/72750476-f22e7500-3be2-11ea-951a-c02b9dac5865.png)
+![Screenshot 2018-03-18 13 14 20(2)](https://user-images.githubusercontent.com/42617411/72750476-f22e7500-3be2-11ea-951a-c02b9dac5865.png)
+![Screenshot 2018-03-18 23 28 00](https://user-images.githubusercontent.com/42617411/72750594-4afe0d80-3be3-11ea-8923-c677b19a32fc.png)
