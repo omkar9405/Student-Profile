@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BCDFACB-5443-4959-B7A8-9101DE3B1BCD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>studentprofiledesign1</RootNamespace>
+    <AssemblyName>studentprofiledesign1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutpage.Designer.cs">
+      <DependentUpon>aboutpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN2PARENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN2PARENT.Designer.cs">
+      <DependentUpon>ADMIN2PARENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin3refference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin3refference.Designer.cs">
+      <DependentUpon>admin3refference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINCERTIFICATES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINCERTIFICATES.Designer.cs">
+      <DependentUpon>ADMINCERTIFICATES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINRESULTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINRESULTS.Designer.cs">
+      <DependentUpon>ADMINRESULTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CERTIFICATE1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CERTIFICATE1.Designer.cs">
+      <DependentUpon>CERTIFICATE1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CERTIFICATE2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CERTIFICATE2.Designer.cs">
+      <DependentUpon>CERTIFICATE2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CERTIFICATE3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CERTIFICATE3.Designer.cs">
+      <DependentUpon>CERTIFICATE3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CERTIFICATE4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CERTIFICATE4.Designer.cs">
+      <DependentUpon>CERTIFICATE4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CERTIFICATE5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CERTIFICATE5.Designer.cs">
+      <DependentUpon>CERTIFICATE5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CERTIFICATE6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CERTIFICATE6.Designer.cs">
+      <DependentUpon>CERTIFICATE6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="certificates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="certificates.Designer.cs">
+      <DependentUpon>certificates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataDataSet3.cs">
+      <DependentUpon>DataDataSet3.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MYPROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MYPROFILE.Designer.cs">
+      <DependentUpon>MYPROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MYPROFILE2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MYPROFILE2.Designer.cs">
+      <DependentUpon>MYPROFILE2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MYPROFILE3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MYPROFILE3.Designer.cs">
+      <DependentUpon>MYPROFILE3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MYPROFILE4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MYPROFILE4.Designer.cs">
+      <DependentUpon>MYPROFILE4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MYPROFILE5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MYPROFILE5.Designer.cs">
+      <DependentUpon>MYPROFILE5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MYPROFILE6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MYPROFILE6.Designer.cs">
+      <DependentUpon>MYPROFILE6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PARENTS_DETAILS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PARENTS_DETAILS.Designer.cs">
+      <DependentUpon>PARENTS_DETAILS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PASSWORD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PASSWORD.Designer.cs">
+      <DependentUpon>PASSWORD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRINT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRINT1.Designer.cs">
+      <DependentUpon>PRINT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profilephoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profilephoto.Designer.cs">
+      <DependentUpon>profilephoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Class1.cs" />
+    <Compile Include="REFFERENCE_DETAILS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REFFERENCE_DETAILS.Designer.cs">
+      <DependentUpon>REFFERENCE_DETAILS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SEM1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEM1.Designer.cs">
+      <DependentUpon>SEM1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SEM2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEM2.Designer.cs">
+      <DependentUpon>SEM2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SEM4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEM4.Designer.cs">
+      <DependentUpon>SEM4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SEM5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEM5.Designer.cs">
+      <DependentUpon>SEM5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SEM6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEM6.Designer.cs">
+      <DependentUpon>SEM6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SEMESTER3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEMESTER3.Designer.cs">
+      <DependentUpon>SEMESTER3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showresult1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showresult1.Designer.cs">
+      <DependentUpon>showresult1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showresult2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showresult2.Designer.cs">
+      <DependentUpon>showresult2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SHOWRESULT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHOWRESULT4.Designer.cs">
+      <DependentUpon>SHOWRESULT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aboutpage.resx">
+      <DependentUpon>aboutpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN2PARENT.resx">
+      <DependentUpon>ADMIN2PARENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin3refference.resx">
+      <DependentUpon>admin3refference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINCERTIFICATES.resx">
+      <DependentUpon>ADMINCERTIFICATES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINRESULTS.resx">
+      <DependentUpon>ADMINRESULTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CERTIFICATE1.resx">
+      <DependentUpon>CERTIFICATE1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CERTIFICATE2.resx">
+      <DependentUpon>CERTIFICATE2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CERTIFICATE3.resx">
+      <DependentUpon>CERTIFICATE3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CERTIFICATE4.resx">
+      <DependentUpon>CERTIFICATE4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CERTIFICATE5.resx">
+      <DependentUpon>CERTIFICATE5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CERTIFICATE6.resx">
+      <DependentUpon>CERTIFICATE6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="certificates.resx">
+      <DependentUpon>certificates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MYPROFILE.resx">
+      <DependentUpon>MYPROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MYPROFILE2.resx">
+      <DependentUpon>MYPROFILE2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MYPROFILE3.resx">
+      <DependentUpon>MYPROFILE3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MYPROFILE4.resx">
+      <DependentUpon>MYPROFILE4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MYPROFILE5.resx">
+      <DependentUpon>MYPROFILE5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MYPROFILE6.resx">
+      <DependentUpon>MYPROFILE6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PARENTS_DETAILS.resx">
+      <DependentUpon>PARENTS_DETAILS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PASSWORD.resx">
+      <DependentUpon>PASSWORD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRINT1.resx">
+      <DependentUpon>PRINT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profilephoto.resx">
+      <DependentUpon>profilephoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="REFFERENCE_DETAILS.resx">
+      <DependentUpon>REFFERENCE_DETAILS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEM1.resx">
+      <DependentUpon>SEM1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEM2.resx">
+      <DependentUpon>SEM2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEM4.resx">
+      <DependentUpon>SEM4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEM5.resx">
+      <DependentUpon>SEM5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEM6.resx">
+      <DependentUpon>SEM6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEMESTER3.resx">
+      <DependentUpon>SEMESTER3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showresult1.resx">
+      <DependentUpon>showresult1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showresult2.resx">
+      <DependentUpon>showresult2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHOWRESULT4.resx">
+      <DependentUpon>SHOWRESULT4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPDATE.resx">
+      <DependentUpon>UPDATE.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="DataDataSet.xsc">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet.xss">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet1.xsc">
+      <DependentUpon>DataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet1.xss">
+      <DependentUpon>DataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet2.xsc">
+      <DependentUpon>DataDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet2.xss">
+      <DependentUpon>DataDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet3.xsc">
+      <DependentUpon>DataDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet3.xss">
+      <DependentUpon>DataDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet4.xsc">
+      <DependentUpon>DataDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet4.xss">
+      <DependentUpon>DataDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet5.xsc">
+      <DependentUpon>DataDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet5.xss">
+      <DependentUpon>DataDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet6.xsc">
+      <DependentUpon>DataDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet6.xss">
+      <DependentUpon>DataDataSet6.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DataDataSet7.xsc">
+      <DependentUpon>DataDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet7.xss">
+      <DependentUpon>DataDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data_log.ldf">
+      <DependentUpon>Data.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\student-zone.png" />
+    <None Include="Resources\1d04fce092ebb7401e9a7169bd4a9e58--herta-ppt-template4.jpg" />
+    <None Include="Resources\1d04fce092ebb7401e9a7169bd4a9e58--herta-ppt-template3.jpg" />
+    <None Include="Resources\1d04fce092ebb7401e9a7169bd4a9e58--herta-ppt-template2.jpg" />
+    <None Include="Resources\87e6267127e79f5283c00ccaf6e6f0fd--powerpoint-themes-powerpoint-presentations1.jpg" />
+    <None Include="Resources\1d04fce092ebb7401e9a7169bd4a9e58--herta-ppt-template1.jpg" />
+    <None Include="Resources\87e6267127e79f5283c00ccaf6e6f0fd--powerpoint-themes-powerpoint-presentations.jpg" />
+    <None Include="Resources\1d04fce092ebb7401e9a7169bd4a9e58--herta-ppt-template.jpg" />
+    <None Include="Resources\diploma-transcriptsshriket-pai-1-6381.jpg" />
+    <None Include="Resources\abc2.jpg" />
+    <None Include="Resources\abc1.jpg" />
+    <None Include="Resources\abc.jpg" />
+    <None Include="Resources\diploma-transcriptsshriket-pai-1-638.jpg" />
+    <None Include="Resources\Screenshot 2018-01-04 10.41.18.png" />
+    <None Include="Resources\Screenshot 2018-01-04 10.56.54.png" />
+    <None Include="Resources\Screenshot 2018-01-04 10.55.31.png" />
+    <None Include="Resources\Screenshot 2018-01-04 10.52.20.png" />
+    <None Include="Resources\Screenshot 2018-01-04 10.52.04.png" />
+    <None Include="Resources\Screenshot 2018-01-04 10.51.30.png" />
+    <None Include="Resources\Screenshot 2018-01-04 10.49.31.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
