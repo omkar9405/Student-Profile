@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataDataSet2" targetNamespace="http://tempuri.org/DataDataSet2.xsd" xmlns:mstns="http://tempuri.org/DataDataSet2.xsd" xmlns="http://tempuri.org/DataDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DataConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.studentprofiledesign1.Properties.Settings.GlobalReference.Default.DataConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="REGISTRATION_TABLETableAdapter" GeneratorDataComponentClassName="REGISTRATION_TABLETableAdapter" Name="REGISTRATION_TABLE" UserDataComponentName="REGISTRATION_TABLETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectName="dbo.REGISTRATION_TABLE" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FRIEND1_NAME, FRIEND1_CLASS, FRIEND1_COURSE, FRIEND1_ROLL_NO, FRIEND1_PHONE_NO, FRIEND2_NAME, FRIEND2_CLASS, FRIEND2_COURSE, FRIEND2_ROLL_NO, FRIEND2_PHONE_NO FROM dbo.REGISTRATION_TABLE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FRIEND1_NAME" DataSetColumn="FRIEND1_NAME" />
+              <Mapping SourceColumn="FRIEND1_CLASS" DataSetColumn="FRIEND1_CLASS" />
+              <Mapping SourceColumn="FRIEND1_COURSE" DataSetColumn="FRIEND1_COURSE" />
+              <Mapping SourceColumn="FRIEND1_ROLL_NO" DataSetColumn="FRIEND1_ROLL_NO" />
+              <Mapping SourceColumn="FRIEND1_PHONE_NO" DataSetColumn="FRIEND1_PHONE_NO" />
+              <Mapping SourceColumn="FRIEND2_NAME" DataSetColumn="FRIEND2_NAME" />
+              <Mapping SourceColumn="FRIEND2_CLASS" DataSetColumn="FRIEND2_CLASS" />
+              <Mapping SourceColumn="FRIEND2_COURSE" DataSetColumn="FRIEND2_COURSE" />
+              <Mapping SourceColumn="FRIEND2_ROLL_NO" DataSetColumn="FRIEND2_ROLL_NO" />
+              <Mapping SourceColumn="FRIEND2_PHONE_NO" DataSetColumn="FRIEND2_PHONE_NO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataDataSet2" msprop:Generator_UserDSName="DataDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REGISTRATION_TABLE" msprop:Generator_TableClassName="REGISTRATION_TABLEDataTable" msprop:Generator_TableVarName="tableREGISTRATION_TABLE" msprop:Generator_TablePropName="REGISTRATION_TABLE" msprop:Generator_RowDeletingName="REGISTRATION_TABLERowDeleting" msprop:Generator_RowChangingName="REGISTRATION_TABLERowChanging" msprop:Generator_RowEvHandlerName="REGISTRATION_TABLERowChangeEventHandler" msprop:Generator_RowDeletedName="REGISTRATION_TABLERowDeleted" msprop:Generator_UserTableName="REGISTRATION_TABLE" msprop:Generator_RowChangedName="REGISTRATION_TABLERowChanged" msprop:Generator_RowEvArgName="REGISTRATION_TABLERowChangeEvent" msprop:Generator_RowClassName="REGISTRATION_TABLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FRIEND1_NAME" msprop:Generator_ColumnVarNameInTable="columnFRIEND1_NAME" msprop:Generator_ColumnPropNameInRow="FRIEND1_NAME" msprop:Generator_ColumnPropNameInTable="FRIEND1_NAMEColumn" msprop:Generator_UserColumnName="FRIEND1_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND1_CLASS" msprop:Generator_ColumnVarNameInTable="columnFRIEND1_CLASS" msprop:Generator_ColumnPropNameInRow="FRIEND1_CLASS" msprop:Generator_ColumnPropNameInTable="FRIEND1_CLASSColumn" msprop:Generator_UserColumnName="FRIEND1_CLASS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND1_COURSE" msprop:Generator_ColumnVarNameInTable="columnFRIEND1_COURSE" msprop:Generator_ColumnPropNameInRow="FRIEND1_COURSE" msprop:Generator_ColumnPropNameInTable="FRIEND1_COURSEColumn" msprop:Generator_UserColumnName="FRIEND1_COURSE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND1_ROLL_NO" msprop:Generator_ColumnVarNameInTable="columnFRIEND1_ROLL_NO" msprop:Generator_ColumnPropNameInRow="FRIEND1_ROLL_NO" msprop:Generator_ColumnPropNameInTable="FRIEND1_ROLL_NOColumn" msprop:Generator_UserColumnName="FRIEND1_ROLL_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND1_PHONE_NO" msprop:Generator_ColumnVarNameInTable="columnFRIEND1_PHONE_NO" msprop:Generator_ColumnPropNameInRow="FRIEND1_PHONE_NO" msprop:Generator_ColumnPropNameInTable="FRIEND1_PHONE_NOColumn" msprop:Generator_UserColumnName="FRIEND1_PHONE_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="FRIEND2_NAME" msprop:Generator_ColumnVarNameInTable="columnFRIEND2_NAME" msprop:Generator_ColumnPropNameInRow="FRIEND2_NAME" msprop:Generator_ColumnPropNameInTable="FRIEND2_NAMEColumn" msprop:Generator_UserColumnName="FRIEND2_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND2_CLASS" msprop:Generator_ColumnVarNameInTable="columnFRIEND2_CLASS" msprop:Generator_ColumnPropNameInRow="FRIEND2_CLASS" msprop:Generator_ColumnPropNameInTable="FRIEND2_CLASSColumn" msprop:Generator_UserColumnName="FRIEND2_CLASS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND2_COURSE" msprop:Generator_ColumnVarNameInTable="columnFRIEND2_COURSE" msprop:Generator_ColumnPropNameInRow="FRIEND2_COURSE" msprop:Generator_ColumnPropNameInTable="FRIEND2_COURSEColumn" msprop:Generator_UserColumnName="FRIEND2_COURSE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND2_ROLL_NO" msprop:Generator_ColumnVarNameInTable="columnFRIEND2_ROLL_NO" msprop:Generator_ColumnPropNameInRow="FRIEND2_ROLL_NO" msprop:Generator_ColumnPropNameInTable="FRIEND2_ROLL_NOColumn" msprop:Generator_UserColumnName="FRIEND2_ROLL_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FRIEND2_PHONE_NO" msprop:Generator_ColumnVarNameInTable="columnFRIEND2_PHONE_NO" msprop:Generator_ColumnPropNameInRow="FRIEND2_PHONE_NO" msprop:Generator_ColumnPropNameInTable="FRIEND2_PHONE_NOColumn" msprop:Generator_UserColumnName="FRIEND2_PHONE_NO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

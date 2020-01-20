@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="DataModelStoreContainer">
+          <EntitySet Name="REGISTRATION_TABLE1" EntityType="DataModel.Store.REGISTRATION_TABLE1" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="REGISTRATION_TABLE1">
+          <Key>
+            <PropertyRef Name="ENROLLMENT_NO" />
+          </Key>
+          <Property Name="REGISTER_ID" Type="int" />
+          <Property Name="ENROLLMENT_NO" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="PASSWORD" Type="varchar" MaxLength="50" />
+          <Property Name="CONFIRM_PASSWORD" Type="varchar" MaxLength="50" />
+          <Property Name="DEPARTMENT" Type="varchar" MaxLength="50" />
+          <Property Name="CLASS" Type="varchar" MaxLength="50" />
+          <Property Name="ACADEMIC_YEAR" Type="varchar" MaxLength="50" />
+          <Property Name="ROLL_NO" Type="int" />
+          <Property Name="NAME" Type="varchar" MaxLength="50" />
+          <Property Name="RELIGION" Type="varchar" MaxLength="50" />
+          <Property Name="BOD" Type="date" />
+          <Property Name="CATEGORY" Type="varchar" MaxLength="50" />
+          <Property Name="CAST" Type="varchar" MaxLength="50" />
+          <Property Name="BLOOD_GROUP" Type="varchar" MaxLength="50" />
+          <Property Name="ADDRESS" Type="varchar" MaxLength="50" />
+          <Property Name="PHONE_NO1" Type="varchar" MaxLength="10" />
+          <Property Name="EMAIL_ID" Type="varchar" MaxLength="50" />
+          <Property Name="AADHAR_NO" Type="varchar" MaxLength="50" />
+          <Property Name="GENDER" Type="varchar" MaxLength="50" />
+          <Property Name="FATHER_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="MOTHER_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="PHONE_NO2" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="OCCUPATION" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="OFFICE" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="PERMANENT_ADDRESS" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="IMAGE" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND1_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND1_CLASS" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND1_COURSE" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND1_ROLL_NO" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND1_PHONE_NO" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="FRIEND2_NAME" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND2_CLASS" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND2_COURSE" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND2_ROLL_NO" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FRIEND2_PHONE_NO" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="PICIMAGE" Type="image" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="DataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="REGISTRATION_TABLE1" EntityType="DataModel.REGISTRATION_TABLE1" />
+        </EntityContainer>
+        <EntityType Name="REGISTRATION_TABLE1">
+          <Key>
+            <PropertyRef Name="ENROLLMENT_NO" />
+          </Key>
+          <Property Name="REGISTER_ID" Type="Int32" />
+          <Property Name="ENROLLMENT_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PASSWORD" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CONFIRM_PASSWORD" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="DEPARTMENT" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CLASS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ACADEMIC_YEAR" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ROLL_NO" Type="Int32" />
+          <Property Name="NAME" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="RELIGION" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="BOD" Type="DateTime" />
+          <Property Name="CATEGORY" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CAST" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="BLOOD_GROUP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ADDRESS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PHONE_NO1" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="EMAIL_ID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="AADHAR_NO" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="GENDER" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FATHER_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="MOTHER_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PHONE_NO2" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="OCCUPATION" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="OFFICE" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="PERMANENT_ADDRESS" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="IMAGE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND1_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND1_CLASS" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND1_COURSE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND1_ROLL_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND1_PHONE_NO" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND2_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND2_CLASS" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND2_COURSE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND2_ROLL_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FRIEND2_PHONE_NO" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PICIMAGE" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities">
+          <EntitySetMapping Name="REGISTRATION_TABLE1">
+            <EntityTypeMapping TypeName="DataModel.REGISTRATION_TABLE1">
+              <MappingFragment StoreEntitySet="REGISTRATION_TABLE1">
+                <ScalarProperty Name="REGISTER_ID" ColumnName="REGISTER_ID" />
+                <ScalarProperty Name="ENROLLMENT_NO" ColumnName="ENROLLMENT_NO" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+                <ScalarProperty Name="CONFIRM_PASSWORD" ColumnName="CONFIRM_PASSWORD" />
+                <ScalarProperty Name="DEPARTMENT" ColumnName="DEPARTMENT" />
+                <ScalarProperty Name="CLASS" ColumnName="CLASS" />
+                <ScalarProperty Name="ACADEMIC_YEAR" ColumnName="ACADEMIC_YEAR" />
+                <ScalarProperty Name="ROLL_NO" ColumnName="ROLL_NO" />
+                <ScalarProperty Name="NAME" ColumnName="NAME" />
+                <ScalarProperty Name="RELIGION" ColumnName="RELIGION" />
+                <ScalarProperty Name="BOD" ColumnName="BOD" />
+                <ScalarProperty Name="CATEGORY" ColumnName="CATEGORY" />
+                <ScalarProperty Name="CAST" ColumnName="CAST" />
+                <ScalarProperty Name="BLOOD_GROUP" ColumnName="BLOOD_GROUP" />
+                <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+                <ScalarProperty Name="PHONE_NO1" ColumnName="PHONE_NO1" />
+                <ScalarProperty Name="EMAIL_ID" ColumnName="EMAIL_ID" />
+                <ScalarProperty Name="AADHAR_NO" ColumnName="AADHAR_NO" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="FATHER_NAME" ColumnName="FATHER_NAME" />
+                <ScalarProperty Name="MOTHER_NAME" ColumnName="MOTHER_NAME" />
+                <ScalarProperty Name="PHONE_NO2" ColumnName="PHONE_NO2" />
+                <ScalarProperty Name="OCCUPATION" ColumnName="OCCUPATION" />
+                <ScalarProperty Name="OFFICE" ColumnName="OFFICE" />
+                <ScalarProperty Name="PERMANENT_ADDRESS" ColumnName="PERMANENT_ADDRESS" />
+                <ScalarProperty Name="IMAGE" ColumnName="IMAGE" />
+                <ScalarProperty Name="FRIEND1_NAME" ColumnName="FRIEND1_NAME" />
+                <ScalarProperty Name="FRIEND1_CLASS" ColumnName="FRIEND1_CLASS" />
+                <ScalarProperty Name="FRIEND1_COURSE" ColumnName="FRIEND1_COURSE" />
+                <ScalarProperty Name="FRIEND1_ROLL_NO" ColumnName="FRIEND1_ROLL_NO" />
+                <ScalarProperty Name="FRIEND1_PHONE_NO" ColumnName="FRIEND1_PHONE_NO" />
+                <ScalarProperty Name="FRIEND2_NAME" ColumnName="FRIEND2_NAME" />
+                <ScalarProperty Name="FRIEND2_CLASS" ColumnName="FRIEND2_CLASS" />
+                <ScalarProperty Name="FRIEND2_COURSE" ColumnName="FRIEND2_COURSE" />
+                <ScalarProperty Name="FRIEND2_ROLL_NO" ColumnName="FRIEND2_ROLL_NO" />
+                <ScalarProperty Name="FRIEND2_PHONE_NO" ColumnName="FRIEND2_PHONE_NO" />
+                <ScalarProperty Name="PICIMAGE" ColumnName="PICIMAGE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1" ZoomLevel="48">
+        <EntityTypeShape EntityType="DataModel.REGISTRATION_TABLE1" Width="1.75" PointX="0.75" PointY="0.75" Height="8.1339322916666656" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

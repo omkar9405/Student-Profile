@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="studentprofiledesign1.admin" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAIQCMABRACBEiAAIICAEw/AAgEMHAAIAQmAAA=</HashCode>
+      <FileName>admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.ADMIN2PARENT" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACEAQRAAAEiIAAASAFA4AEAEEHAIIABiAAA=</HashCode>
+      <FileName>ADMIN2PARENT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.admin3refference" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAQABQAACEAgBAAAACAAASCAAg4AAAFGHIAAAACAAA=</HashCode>
+      <FileName>admin3refference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.DataDataSet2" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAIEAAAEABBI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.DataDataSet3" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAIEAAAEABBI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.Login" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAAAAAACAAABAABASACgADAMAgAACCEDAIBAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.REGISTRATION" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/zAwAIUCAClQChgIUXCAIQDCAI0zDAAAFLFHgABIABA=</HashCode>
+      <FileName>Form2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.MYPROFILE" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/ygAAAQAISFACBCSEQCAAQBCIEAYAAAAEGAIAAAAALI=</HashCode>
+      <FileName>MYPROFILE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.MYPROFILE2" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8SAAAAAAASAAABCQAACAAABCIAA4AAAAEHAAAAAAAAA=</HashCode>
+      <FileName>MYPROFILE2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.PARENTS_DETAILS" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAASkAABCABAGAAgBCIAA4BAAgEHRAAAAAAAA=</HashCode>
+      <FileName>PARENTS_DETAILS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.PASSWORD" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACEAABAAAACACgBSAAA4ABAgEHBAAAAAAAA=</HashCode>
+      <FileName>PASSWORD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.Program" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.REFFERENCE_DETAILS" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8yAgAAAAASEAABCQAACAAABCIEA4AAAAEHAIAAAAAAA=</HashCode>
+      <FileName>REFFERENCE_DETAILS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.SEM1" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8yAAAAQAASEAABSQEACACABCIAA4AAAAEHAAAAAAAIA=</HashCode>
+      <FileName>SEM1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.SEM2" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAAAAAAASAAABCQEACAAABCIAA4AAAAEHAAAAAAAIA=</HashCode>
+      <FileName>SEM2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.SEM3" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAAAAAAASAAABCQEACAAABCIAA4AAAAECAAAAAAAIA=</HashCode>
+      <FileName>SEMESTER3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.DataDataSet2TableAdapters.REGISTRATION_TABLETableAdapter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.DataDataSet2TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.DataDataSet3TableAdapters.REGISTRATION_TABLETableAdapter" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.DataDataSet3TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABgEBAAAAMAAgAAACgAAEAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.Properties.Class1" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Properties\Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQCBAQCQAAAgBKgGBEAkQESJIEAAEAMAJAAAJAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="studentprofiledesign1.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIEAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
